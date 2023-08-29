@@ -38,7 +38,7 @@ function Content(props) {
     <>
         <div className="content-item" onClick={Modal}>
             <img src="https://via.placeholder.com/320" alt="테스트" />
-            <h3>{title[props.arrayNum]}</h3>
+            <h3 className='font-bold text-2xl my-1 text-green-500'>{title[props.arrayNum]}</h3>
             <p>{desc[props.arrayNum]}</p>
             <p>{props.desc2}</p>
             <span onClick={goodFun}>👍 {good}</span>
